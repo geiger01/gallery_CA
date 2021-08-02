@@ -26,7 +26,7 @@ function createProjects() {
       'https://geiger01.github.io/Minesweeper_js/',
       '20.07.21',
       ['gaming', ' vanilla js'],
-      '../img/portfolio/minesweeper.png'
+      'img/portfolio/minesweeper.png'
     )
   );
   gProjs.push(
@@ -37,7 +37,7 @@ function createProjects() {
       'https://elastic-hoover-3f8c32.netlify.app/',
       '30.07.21',
       ['CRUD', ' MVC', ' vanilla js', ' local-storage'],
-      '../img/portfolio/book.png'
+      'img/portfolio/book.png'
     )
   );
 
@@ -49,7 +49,7 @@ function createProjects() {
       'https://vigilant-volhard-00960b.netlify.app/',
       '19.07.21',
       ['gaming', ' vanilla js'],
-      '../img/portfolio/pacman.png'
+      'img/portfolio/pacman.png'
     )
   );
   gProjs.push(
@@ -60,7 +60,7 @@ function createProjects() {
       'https://silly-lamport-6ffff8.netlify.app/',
       '16.07.21',
       ['vanilla js'],
-      '../img/portfolio/calc.png'
+      'img/portfolio/calc.png'
     )
   );
 
@@ -72,7 +72,7 @@ function createProjects() {
       'https://relaxed-austin-52d2a2.netlify.app/',
       '13.07.21',
       ['gaming', ' vanilla js', ' local-storage'],
-      '../img/portfolio/nums.png'
+      'img/portfolio/nums.png'
     )
   );
   gProjs.push(
@@ -83,7 +83,7 @@ function createProjects() {
       'https://amazing-thompson-6fd20f.netlify.app/secret.html',
       '28.07.21',
       ['MVC', ' vanilla js'],
-      '../img/portfolio/log.png'
+      'img/portfolio/log.png'
     )
   );
   gProjs.push(
@@ -94,7 +94,7 @@ function createProjects() {
       'https://optimistic-galileo-907c6e.netlify.app/',
       '17.07.21',
       ['Arcade', ' vanilla js'],
-      '../img/portfolio/quiz.png'
+      'img/portfolio/quiz.png'
     )
   );
 }
