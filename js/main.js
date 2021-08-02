@@ -5,6 +5,7 @@ $('document').ready(onInit);
 function onInit() {
   renderProjs();
   renderModals();
+  $('.submit-btn').click(onSubmit);
 }
 
 function renderProjs() {
@@ -64,11 +65,13 @@ function renderModals() {
      <p class="item-intro text-muted">
                     ${proj.title}
     </p>
+    <a href="${proj.url}" target="_blank" >
     <img
-                    class="img-fluid d-block mx-auto"
-                    src="${proj.img}"
-                    alt=""
+    class="img-fluid d-block mx-auto"
+    src="${proj.img}"
+    alt=""
     />
+    </a>
     <p>
                  ${proj.desc}
      </p>
@@ -97,4 +100,17 @@ function renderModals() {
   });
 
   $('.modals-section').html(strHtmls);
+}
+
+function onSubmit() {
+  var msg = $('.messege').val();
+  var subject = $('.subject').val();
+  var email = $('.email').val();
+
+  var regex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+  if (!regex.test(email)) return;
+
+  window.open(
+    `https://mail.google.com/mail/?view=cm&fs=1&to=tantangeiger@gmail.com&su=${subject}&body=${msg}`
+  );
 }

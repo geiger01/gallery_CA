@@ -84,7 +84,7 @@ body {
 .offcanvas-aside {
   position: fixed;
   height: 100%;
-  background: red;
+  background: rgb(231, 205, 205);
   width: 80vw;
   right: -80vw;
   z-index: 10;
@@ -144,11 +144,11 @@ body {
   color: #fec503;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 90%;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 800;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: rgb(12, 12, 12);
+  color: rgb(19, 19, 19);
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
@@ -224,10 +224,10 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 60px;
+    font-size: 80px;
     font-style: italic;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
@@ -786,4 +786,57 @@ fieldset[disabled] .btn-xl:hover {
 .container {
   padding-right: 0;
   padding-left: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: rgb(43, 43, 43);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #cc6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #cc4949;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type='button'] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #cc6666;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type='button']:hover {
+  background: #cc4949;
 }
