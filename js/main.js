@@ -96,5 +96,5 @@ function renderModals() {
     `);
   });
 
-  $('.boolbil').html(strHtmls);
+  $('.modals-section').html(strHtmls);
 }
